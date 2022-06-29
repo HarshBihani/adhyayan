@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".MainActivity5">
+
+    <Button
+        android:id="@+id/textView21"
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/voltaire"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="openActivity12"
+        android:text="Organic Chemistry For JEE - H PANDEY"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Button
+        android:id="@+id/textView22"
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/voltaire"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="openActivity15"
+        android:text="Concise inorganic chemistry - JD Lee"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/textView26"
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/colorPrimaryDark"
+
+        android:fontFamily="@font/voltaire"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="openActivity14"
+        android:text="Problems in physical chemistry - N Avasthi"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textView27"
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/voltaire"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="openActivity16"
+        android:text="CHEMISTRY CENGAGE FOR JEE - s saini, ks saini"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

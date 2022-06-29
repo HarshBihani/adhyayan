@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/aldrich</item>
+        <item>@font/alegreya_sc_bold</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/athiti_extralight</item>
+        <item>@font/bangers</item>
+        <item>@font/benchnine_bold</item>
+        <item>@font/buenard</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/cairo_extralight</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/cormorant_garamond_bold_italic</item>
+        <item>@font/cousine</item>
+        <item>@font/fenix</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/monofett</item>
+        <item>@font/news_cycle</item>
+        <item>@font/numans</item>
+        <item>@font/space_mono</item>
+        <item>@font/voltaire</item>
+    </array>
+</resources>

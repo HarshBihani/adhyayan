@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="398dp"
+        android:layout_height="31dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="joinForum"
+        android:text="(Click Here To Join Discussion Forum)"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="313dp"
+        android:layout_height="681dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity2"
+                app:srcCompat="@drawable/physics" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="PHYSICS"
+                android:textColor="@color/colorWhite"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity3"
+                app:srcCompat="@drawable/testtube" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="CHEMISTRY"
+                android:textColor="@color/colorWhite"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity4"
+                app:srcCompat="@drawable/maths" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="MATHS"
+                android:textColor="@color/colorWhite"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334972521365",
+    "project_id": "registration-adhyayan",
+    "storage_bucket": "registration-adhyayan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334972521365:android:e12b50e5670ec90d07c49c",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334972521365-gf4cj7ppsg59tqqbms4k1gjj1eqb7u72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR-1Jhg5k_KglhDdYLFMGCs7MonYvPZBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334972521365-gf4cj7ppsg59tqqbms4k1gjj1eqb7u72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
